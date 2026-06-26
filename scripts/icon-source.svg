@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#0f172a"/>
+  <!-- 졸업모 -->
+  <g fill="#ffffff">
+    <!-- 모자 윗판 (마름모) -->
+    <path d="M256 150 L412 212 L256 274 L100 212 Z"/>
+    <!-- 모자 아래 본체 -->
+    <path d="M168 244 L256 279 L344 244 L344 320 C344 348 304 366 256 366 C208 366 168 348 168 320 Z"/>
+    <!-- 술 끈 -->
+    <path d="M412 212 L412 318" stroke="#ffffff" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <circle cx="412" cy="334" r="20"/>
+  </g>
+</svg>
