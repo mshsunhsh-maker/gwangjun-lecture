@@ -1,0 +1,1 @@
+import { Workflow } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="콘텐츠 파이프라인" description="아이디어부터 발행까지 콘텐츠 진행 상태를 관리하세요." icon={Workflow}/>}

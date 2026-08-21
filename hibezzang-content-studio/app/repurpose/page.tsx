@@ -1,0 +1,1 @@
+import { RefreshCw } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="콘텐츠 재활용" description="블로그 글을 다양한 채널에 맞는 콘텐츠로 확장하세요." icon={RefreshCw}/>}

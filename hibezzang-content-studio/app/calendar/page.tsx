@@ -1,0 +1,1 @@
+import { CalendarDays } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="30일 캘린더" description="발행 일정을 한눈에 보고 꾸준한 루틴을 만드세요." icon={CalendarDays}/>}

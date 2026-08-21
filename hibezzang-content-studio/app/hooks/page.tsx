@@ -1,0 +1,1 @@
+import { Sparkles } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="도입부 만들기" description="독자가 계속 읽고 싶은 매력적인 첫 문장을 만드세요." icon={Sparkles}/>}

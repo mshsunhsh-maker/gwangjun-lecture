@@ -1,0 +1,1 @@
+import { Settings } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="설정" description="작업 환경과 콘텐츠 기본값을 관리하세요." icon={Settings}/>}

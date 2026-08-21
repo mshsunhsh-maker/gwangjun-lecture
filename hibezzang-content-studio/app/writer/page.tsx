@@ -1,0 +1,1 @@
+import { PenLine } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="글 초안" description="경험과 핵심 정보를 읽기 좋은 블로그 글로 정리하세요." icon={PenLine}/>}

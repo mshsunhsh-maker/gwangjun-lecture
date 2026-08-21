@@ -1,0 +1,1 @@
+import { BarChart3 } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="성과 분석" description="조회와 유입, 수익 데이터를 통해 다음 기회를 찾으세요." icon={BarChart3}/>}
