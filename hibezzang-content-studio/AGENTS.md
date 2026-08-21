@@ -27,6 +27,29 @@ idea discovery → draft writing → SEO → hook → image planning → repurpo
 - Design: cream/off-white base, sage green primary accent, muted pink secondary accent, charcoal text, spacious modern SaaS layout.
 - Desktop-first but responsive.
 
+## Claude cross-validation gate
+At the end of every version (V1–V5), stop before advancing and prepare a review packet for Claude using `CLAUDE_REVIEW.md`.
+
+The review packet must include:
+- changed files
+- architecture decisions
+- commands/tests run and results
+- known limitations
+- questions requiring independent review
+
+Do not mark a version complete until the review feedback has been addressed or explicitly documented as deferred.
+
+Claude review should independently check:
+1. architecture and separation of concerns
+2. TypeScript/runtime risks
+3. UX and accessibility issues
+4. state/data consistency
+5. security and secret handling
+6. prompt/API design quality where applicable
+7. overengineering or unnecessary complexity
+
+If Claude feedback conflicts with Codex implementation, document both positions and choose the simpler, safer approach unless project requirements clearly favor the alternative.
+
 ## Required pages
 - `/` 홈
 - `/ideas` 오늘의 글감
