@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="콘텐츠 재활용" description="블로그 글을 릴스, 카드뉴스, Threads, 뉴스레터로 재가공합니다."/>}
