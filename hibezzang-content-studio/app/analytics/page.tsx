@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="성과 분석" description="조회수, 유입, 반응, 수익을 기록하고 다음 콘텐츠에 반영합니다."/>}
