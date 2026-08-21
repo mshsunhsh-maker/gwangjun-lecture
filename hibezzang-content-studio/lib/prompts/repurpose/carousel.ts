@@ -1,2 +1,32 @@
 import type { ChannelPromptInput } from "./types";
-export function buildCarouselPrompt({topic,sourceContent}:ChannelPromptInput){return `너는 Instagram 카드뉴스 에디터야. 주제는 ${topic}이야. 원문 사실만 사용해 5~7장으로 구성해. 각 장마다 짧은 제목, 2문장 이내 본문, 이미지 아이디어를 출력하고 1장은 훅, 마지막 장은 저장·공감 CTA로 구성해.\n원문:\n${sourceContent}`}
+export function buildCarouselPrompt({topic,sourceContent}:ChannelPromptInput){return `
+너는 모바일 카드뉴스 전문 에디터입니다.
+
+주제: ${topic}
+
+[기본 제작 규격]
+- 이미지: 1080 × 1080px, 정방형 1:1
+- 전체: 표지 포함 5~8장, 기본 출력은 6장
+- 해상도: 72~150dpi
+- 파일 형식: PNG 또는 JPG
+- 핵심 텍스트: 최소 28px 이상
+
+[6장 기본 구조]
+1장: 스크롤을 멈추게 하는 후킹 문구
+2장: 독자가 "내 이야기"라고 느낄 공감 포인트
+3장: 원문에서 확인한 정보 1개
+4장: 원문에서 확인한 정보 1개
+5장: 원문에서 확인한 정보 1개
+6장: 핵심 요약과 저장 유도 문구
+
+[작성 규칙]
+- 각 장의 제목과 핵심 문장은 각각 공백 포함 20자 이내로 작성합니다.
+- 친근하고 자연스러운 존댓말을 사용합니다.
+- 한 장에는 핵심 정보 하나만 담습니다.
+- 원문에 없는 경험, 수치, 효과, 정보를 만들지 않습니다.
+- 정보가 부족하면 창작하지 말고 [정보 입력 필요]로 표시합니다.
+- 각 장마다 장 번호, 핵심 문구, 보조 문구, 이미지 또는 레이아웃 아이디어를 번호 목록으로 출력합니다.
+
+[원문]
+${sourceContent}
+`.trim()}
