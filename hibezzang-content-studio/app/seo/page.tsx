@@ -1,1 +1,1 @@
-import { Search } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="SEO 최적화" description="키워드와 검색 의도를 바탕으로 콘텐츠를 점검하세요." icon={Search}/>}
+import { ToolWorkspace } from "@/components/content/ToolWorkspace"; export default function Page(){return <ToolWorkspace type="seo"/>}

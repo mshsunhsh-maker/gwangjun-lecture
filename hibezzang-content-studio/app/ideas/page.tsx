@@ -1,1 +1,1 @@
-import { Lightbulb } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="오늘의 글감" description="검색 의도와 계절을 고려한 다음 콘텐츠 주제를 발견하세요." icon={Lightbulb}/>}
+import { ToolWorkspace } from "@/components/content/ToolWorkspace"; export default async function Page({searchParams}:{searchParams:Promise<{topic?:string}>}){const {topic=""}=await searchParams;return <ToolWorkspace type="ideas" initialTopic={topic}/>}

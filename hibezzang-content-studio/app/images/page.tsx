@@ -1,1 +1,1 @@
-import { Image } from "lucide-react"; import { PlaceholderPage } from "@/components/layout/PlaceholderPage"; export default function Page(){return <PlaceholderPage title="이미지 기획" description="썸네일과 본문 이미지 구성을 한곳에서 계획하세요." icon={Image}/>}
+import { ToolWorkspace } from "@/components/content/ToolWorkspace"; export default function Page(){return <ToolWorkspace type="images"/>}
