@@ -1,0 +1,1 @@
+export default function PlaceholderPage({title,description}:{title:string;description:string}){return <div className="placeholder"><div className="eyebrow">HI베짱 CONTENT STUDIO</div><h1>{title}</h1><p className="muted">{description}</p><div className="card">V1에서는 전체 운영 흐름과 화면 구조를 먼저 완성합니다. 이 기능은 V2/V3에서 실제 입력·생성·저장 기능으로 연결됩니다.</div></div>}

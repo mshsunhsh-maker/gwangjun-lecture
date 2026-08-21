@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="콘텐츠 파이프라인" description="아이디어부터 발행 완료까지 콘텐츠 상태를 관리합니다."/>}

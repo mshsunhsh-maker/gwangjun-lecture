@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="30일 캘린더" description="한 달의 글 주제와 발행 일정을 계획하고 관리합니다."/>}

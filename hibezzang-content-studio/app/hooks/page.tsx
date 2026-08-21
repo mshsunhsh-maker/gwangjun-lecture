@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="도입부 만들기" description="첫 3문장 안에 시선을 끄는 여러 유형의 훅을 만듭니다."/>}

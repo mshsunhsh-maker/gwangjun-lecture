@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="SEO 최적화" description="키워드, 제목, 소제목, 메타 설명과 태그를 최적화합니다."/>}

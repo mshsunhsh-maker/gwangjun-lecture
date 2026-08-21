@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="설정" description="블로그 기본 정보와 향후 AI 연동 설정을 관리합니다."/>}
