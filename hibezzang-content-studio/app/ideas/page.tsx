@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="오늘의 글감" description="트렌드와 검색 의도를 바탕으로 리빙 글감 10개를 관리합니다."/>}
