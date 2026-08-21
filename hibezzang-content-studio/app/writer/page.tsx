@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="글 초안" description="주제와 경험을 입력해 블로그 초안을 만드는 작업 공간입니다."/>}
