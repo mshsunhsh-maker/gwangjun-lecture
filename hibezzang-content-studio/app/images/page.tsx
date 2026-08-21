@@ -1,0 +1,1 @@
+import P from '@/components/PlaceholderPage';export default function Page(){return <P title="이미지 기획" description="썸네일, 본문 이미지, 카드뉴스용 이미지 프롬프트를 기획합니다."/>}
